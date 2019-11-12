@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guessing Game</title>
+	<script>
+		var word = ['f','o','x'];
+		
+		
+		
+			function guess_letter(letter,guess_array)
+			{
+
+					for(i=0;i<3;i++)
+					{
+						if(letter==word[i])
+						{
+							
+							alert('You guessed a correct letter.')
+							guess_array.push(letter)
+							console.log(let);
+						}
+						
+					}
+
+			}
+			var guessed = [];
+			guessed.length = 0;
+			while(guessed.length<3)
+			{
+				
+				var let = prompt("Guess a letter to win ");
+				guess_letter(let,guessed);
+				var len = guessed.length();	
+
+			}
+			if(guessed.length()==3)
+			{
+				alert("Congratulations on winning the game");
+			}
+		
+		

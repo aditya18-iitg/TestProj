@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>string functions</title>
+	<script>
+		var str_value = prompt('Enter string');
+		if(typeof str_value=='string')
+		{
+			var str = "You entered a string yay";
+		}
+		else
+		{
+			var str = "It's not a string lol";
+		}
+		alert(str);
+		var str_value = prompt('Enter string');
+		if(str_value.length==0)
+		{
+			alert('Your string is empty');
+		}
+		else
+		{
+			alert("Your string isn't empty");
+		}
+		var str_value = prompt('Enter string to split');
+		var array= str_value.split(" ");
+		console.log(array);
+		var email = prompt("Enter email address");
+		function check_email(email)
+		{
+			var reg = /^([A-Za-z0-9_\.\-])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z])+$/;
+			if(reg.test(email) == false){
+				alert('Invalid email address');
+				return false;
+			}
+			else{
+				alert('Your email id is valid. :)')
+				return true;
+			}
+		}
+		check_email(email);
+
+	</script>
+</head>
+</html>

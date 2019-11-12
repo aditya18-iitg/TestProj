@@ -1,0 +1,13 @@
+total 1328
+drwxrwxr-x  3 drishti drishti    4096 Nov 12 11:02 .
+drwxr-xr-x 11 drishti drishti    4096 Nov 12 09:25 ..
+-rw-rw-r--  1 drishti drishti      66 Oct 13 14:10 command.py
+-rw-r--r--  1 drishti drishti      26 Nov 12 11:01 hello.txt
+drwxr-xr-x  2 drishti drishti    4096 Nov 12 09:33 .ipynb_checkpoints
+-rw-r--r--  1 drishti drishti       0 Nov 12 11:03 ls.txt
+-rw-r--r--  1 drishti drishti   62604 Nov 12 11:02 python-basics.ipynb
+-rw-r--r--  1 drishti drishti  122654 Nov  9 12:17 Python Practice Exercise.pdf
+-rw-r--r--  1 drishti drishti    3715 Nov  9 12:17 python_prog.py
+-rw-rw-r--  1 drishti drishti  122482 Oct 15 13:45 Python Programming.pdf
+-rw-rw-r--  1 drishti drishti      33 Sep 28 10:19 script.py
+-rw-rw-r--  1 drishti drishti 1016714 Oct 11 10:21 words.txt

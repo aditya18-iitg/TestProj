@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<hmtl>
+	<head>
+		<title>Joining strings</title>
+		<script>
+			var string_array = [];
+			var size = prompt(" Enter the number of words ");
+			for(i=0;i<size;i++)
+			{
+				string_array[i] = prompt('Enter the '+(i+1)+'th element');
+				console.log(string_array[i]);
+			}
+			var string = string_array.join(' ');
+			alert(string);
+		</script>
+	</head>
+</hmtl>
+
